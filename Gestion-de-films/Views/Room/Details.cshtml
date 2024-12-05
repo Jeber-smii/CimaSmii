@@ -1,0 +1,52 @@
+﻿@model Gestion_de_films.Models.Room
+
+@if(Model!=null){
+    ViewData["Title"] = "Details-"+Model.Name;
+    <style>
+        .container {
+            text-align: center;
+            
+        }
+
+        .row {
+            display: inline-block;
+            text-align: left;
+            width: 50%;
+            background-color:black;
+            border-radius:10px;
+            padding:1%;
+        }
+    </style>
+
+<br />
+<h1>Details</h1>
+
+
+    <h4>@Model.Name</h4>
+    <hr />
+    <div class="container" >
+        <dl class="row row-md-12">
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.NbPlaces)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.NbPlaces)
+            </dd>
+        </dl>
+    </div>
+<div>
+    <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@Model?.RoomID">Edit</a> |
+    <a class="btn btn-outline-light" asp-action="Index">Back to List</a>
+    </div>
+}
+else
+{
+    <br />
+    <h1>No rom Selected</h1>
+}

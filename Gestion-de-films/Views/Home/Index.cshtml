@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Gestion_de_films.Models.Movie>
+
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+<link rel="stylesheet" href="~/css/Homeindex.css" />
+<link href="/css/Searchbox.css" rel="stylesheet" />
+
+
+<div class="search-container">
+    <form class="form-inline my-2 my-lg-0" asp-action="Search" asp-controller="Home">
+        <input type="text" name="title" placeholder="Search...">
+        <button type="submit" class="my-2 my-sm-0">Search</button>
+    </form>
+</div>
+<br />
+
+<div class="container">
+    @{
+        int rowIndex = 0;
+    }
+    @foreach (var group in Model.Select((x, i) => new { Index = i, Value = x }).GroupBy(x => x.Index / 5))
+    {
+        <div class="row">
+            @{
+                rowIndex++;
+            }
+            @foreach (var item in group.Select(x => x.Value))
+            {
+                <div class="movie-card">
+                    <center>
+                        <img src="/images/@item.Poster" alt="Placeholder image" class="poster" height="200" width="175" style="border-radius:5%">
+                    </center>
+                    <h3 class="title">@item.Title.Substring(0, Math.Min(10, item.Title.Length))..</h3>
+                    <p class="show-time">Show Time: @item.ShowTime</p>
+                    <p class="room-number">Room: @item.room.Name</p>
+                    <a asp-action="Details" asp-route-id="@item.MovieID">more details...</a>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+
+
+
+

@@ -1,0 +1,94 @@
+﻿@model Gestion_de_films.Models.Movie
+
+@if (Model != null)
+{
+    ViewData["Title"] = Model.Title;
+
+    <link rel="stylesheet" href="/css/Moviedetails.css" />
+    <style>
+        .container {
+            
+            
+        }
+
+        
+    </style>
+    <br />
+    <h1>@Model.Title</h1>
+    <hr />
+    <div class="container movie-detail" style="width: 70%;">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/images/@Model.Poster" alt="Alternate Text" class="img-fluid" />
+            </div>
+            <div class="col-md-8">
+                <dl class="row">
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.Title)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.Title)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.Genre)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.Genre)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.ReleaseDate)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.ReleaseDate)
+                    </dd>
+                    <dt class="col-sm-3">
+                        Duration
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.MovieDuration)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.ShowTime)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.ShowTime)
+                    </dd>
+                    <dt class="col-sm-3">
+                        Places Dispo
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.NbPlacesDispo)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.Subject)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.Subject)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.Hero)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.Hero)
+                    </dd>
+                    <dt class="col-sm-3">
+                        Room
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.room.Name)
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div>
+        <hr />
+        <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@Model?.MovieID">Edit</a> |
+        <a class="btn btn-outline-light" asp-action="Index">Back to List</a>
+    </div>
+}
+else
+{
+    <br />
+    <h1> Not found Movie !  </h1>
+}

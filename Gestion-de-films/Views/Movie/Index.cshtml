@@ -1,0 +1,97 @@
+﻿@model IEnumerable<Gestion_de_films.Models.Movie>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<link href="/css/Homeindex.css" rel="stylesheet" />
+<link href="/css/Searchbox.css" rel="stylesheet" />
+<style>
+    th {
+        /width: calc(100% / 9); /* Divide the table width equally among the 10 columns */
+    }
+</style>
+<br />
+<br />
+<p>
+	<a class="btn btn-success" asp-action="Create">Add New Movie</a>
+    
+</p>
+
+<center>
+    <div class="search-container">
+        <form class="form-inline my-2 my-lg-0" asp-action="Search" asp-controller="Movie">
+            <input type="text" name="title" placeholder="Search...">
+            <select  asp-items="ViewBag.RoomID" name="roomid" size=1.5 ></select>
+            <button type="submit" class="my-2 my-sm-0">Search</button>
+        </form>
+    </div>
+</center>
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="table-responsive">
+                <table class="table table-hover ">
+                    <thead>
+                        <tr>
+                            <th>Poster</th>
+                            <th>Title</th>
+                            <th>Release Date</th>
+                            <th>Show Time</th>
+                            <th>Duration</th>
+                            <th>Places Dispo</th>
+                            <th>Room Name</th>
+                            <th >Actions</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <img src="/images/@item.Poster" alt="Alternate Text" width="70" height="70">
+                                </td>
+                                
+                                <td >@Html.DisplayFor(modelItem => item.Title)</td>
+
+                                <td >@Html.DisplayFor(modelItem => item.ReleaseDate)</td>
+                                <td >@Html.DisplayFor(modelItem => item.ShowTime)</td>
+                                <td >@Html.DisplayFor(modelItem => item.MovieDuration)</td>
+                                <td>@Html.DisplayFor(modelItem => item.NbPlacesDispo)</td>
+                                <td >@Html.DisplayFor(modelItem => item.room.Name)</td>
+                                <td colspan="2">
+                                    <a class="btn btn-primary mr-2" asp-action="Edit" asp-route-id="@item.MovieID" style="color: white;">Edit</a>
+                                    <a class="btn btn-info mr-2" asp-action="Details" asp-route-id="@item.MovieID" style="color: white;">Details</a>
+                                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.MovieID" style="color: white;">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .border {
+        border: 1px solid #ddd;
+    }
+
+    h4 {
+        color: #fff;
+        margin-bottom: 0;
+    }
+
+    p {
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    .table td, .table th {
+        vertical-align: middle;
+        text-align: center;
+        color: white ;
+    }
+</style>

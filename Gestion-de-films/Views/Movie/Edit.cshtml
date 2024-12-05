@@ -1,0 +1,109 @@
+﻿@model Gestion_de_films.Models.Movie
+
+@if (Model != null)
+{
+    ViewData["Title"] = Model.Title;
+
+    <br />
+
+    <h1>@Model.Title</h1>
+
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card" style="background-color: black; color: white; border-radius:10px ">
+                <div class="card-body">
+                    <form enctype="multipart/form-data" asp-action="Edit" style="border-radius:10px">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <input type="hidden" asp-for="MovieID" />
+
+                        <div class="form-group">
+                            <label asp-for="Title" class="control-label"></label>
+                            <input asp-for="Title" class="form-control" />
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Genre" class="control-label"></label>
+                            <input asp-for="Genre" class="form-control" />
+                            <span asp-validation-for="Genre" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ReleaseDate" class="control-label"></label>
+                            <input asp-for="ReleaseDate" class="form-control" />
+                            <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ShowTime" class="control-label"></label>
+                            <input asp-for="ShowTime" class="form-control" />
+                            <span asp-validation-for="ShowTime" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Subject" class="control-label"></label>
+                            <input type="text" asp-for="Subject" class="form-control" />
+                            <span asp-validation-for="Subject" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Hero" class="control-label"></label>
+                            <input asp-for="Hero" class="form-control" />
+                            <span asp-validation-for="Hero" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="MovieDuration" class="control-label"></label>
+                            <input asp-for="MovieDuration" class="form-control" />
+                            <span asp-validation-for="MovieDuration" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="NbPlacesDispo" class="control-label"></label>
+                            <input asp-for="NbPlacesDispo" class="form-control" />
+                            <span asp-validation-for="NbPlacesDispo" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="RoomID" class="control-label"> Room </label>
+                            <select asp-for="RoomID" class="form-control" asp-items="ViewBag.RoomID"></select>
+                            <span asp-validation-for="RoomID" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group row">
+                            <label class="col-sm-2 col-form-label">Poster</label> <br />
+                            <input type="file" id="imageInput" name="image" class="form-control custom-file-input" style="width:96%;margin-left:2%">
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <input type="submit" value="Save" class="btn btn-success" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-3">
+            <div class="card" style="background-color:#222; border:none">
+                <div class="card-body">
+
+                    <center><h4 style="color:white">New Poster</h4></center>
+                    <img src="/images/not_img.PNG" id="selectedImage" alt="Selected Image" height="400" width="270" style="border-radius:10px">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="background-color:#222; border:none">
+                <div class="card-body">
+                    <center>  <h4 style="color:white">Old Poster</h4> </center>
+                    <img src="/images/@Model.Poster" id="selectedImage" alt="Selected Image" height="400" width="270" style="border-radius:10px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div>
+        <a class="btn btn-outline-light" asp-action="Index">Back to List</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="~/js/oldnewimg.js"></script>
+}
+else
+{
+    <h1>No Movie Selected</h1>
+}

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD322B76-ECAD-47AA-B572-C0FE1F009EE2}|Gestion-de-films\\CimaSmii.csproj|d:\\dsi2_23_24\\asp.net\\cimasmii\\gestion-de-films\\gestion-de-films\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD322B76-ECAD-47AA-B572-C0FE1F009EE2}|Gestion-de-films\\CimaSmii.csproj|solutionrelative:gestion-de-films\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD322B76-ECAD-47AA-B572-C0FE1F009EE2}|Gestion-de-films\\CimaSmii.csproj|d:\\dsi2_23_24\\asp.net\\cimasmii\\gestion-de-films\\gestion-de-films\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD322B76-ECAD-47AA-B572-C0FE1F009EE2}|Gestion-de-films\\CimaSmii.csproj|solutionrelative:gestion-de-films\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD322B76-ECAD-47AA-B572-C0FE1F009EE2}|Gestion-de-films\\CimaSmii.csproj|d:\\dsi2_23_24\\asp.net\\cimasmii\\gestion-de-films\\gestion-de-films\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD322B76-ECAD-47AA-B572-C0FE1F009EE2}|Gestion-de-films\\CimaSmii.csproj|solutionrelative:gestion-de-films\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD322B76-ECAD-47AA-B572-C0FE1F009EE2}|Gestion-de-films\\CimaSmii.csproj|d:\\dsi2_23_24\\asp.net\\cimasmii\\gestion-de-films\\gestion-de-films\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD322B76-ECAD-47AA-B572-C0FE1F009EE2}|Gestion-de-films\\CimaSmii.csproj|solutionrelative:gestion-de-films\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD322B76-ECAD-47AA-B572-C0FE1F009EE2}|Gestion-de-films\\CimaSmii.csproj|d:\\dsi2_23_24\\asp.net\\cimasmii\\gestion-de-films\\gestion-de-films\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD322B76-ECAD-47AA-B572-C0FE1F009EE2}|Gestion-de-films\\CimaSmii.csproj|solutionrelative:gestion-de-films\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Gestion-de-films\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Gestion-de-films\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAwD0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T18:22:38.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "Gestion-de-films\\Controllers\\RoomController.cs",
+              "ToolTip": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "Gestion-de-films\\Controllers\\RoomController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:22:11.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Gestion-de-films\\Controllers\\MovieController.cs",
+              "ToolTip": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Gestion-de-films\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:22:06.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Gestion-de-films\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Gestion-de-films\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:21:54.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Gestion-de-films\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Gestion-de-films\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:21:51.836Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

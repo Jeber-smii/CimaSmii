@@ -1,0 +1,93 @@
+﻿@model Gestion_de_films.Models.Movie
+
+@{
+    ViewData["Title"] = "Create";
+}
+<link rel="stylesheet" href="/css/Moviecreate.css" />
+
+<style>
+    
+</style>
+
+<br />
+<h1>Create</h1>
+
+<h4>Movie</h4>
+<hr />
+
+<div class="row border-2">
+    <div class="col-md-6 style  " >
+        <form enctype="multipart/form-data" asp-action="Create">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" style="color:white" class="form-control bg-black" required />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Genre" class="control-label"></label>
+                <input asp-for="Genre" style="color:white" class="form-control bg-black" required />
+                <span asp-validation-for="Genre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReleaseDate" class="control-label"></label>
+                <input asp-for="ReleaseDate"  class="form-control bg-black " style="color:white;" required />
+                <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ShowTime" class="control-label"></label>
+                <input asp-for="ShowTime"  class="form-control bg-black" style="color:white;" required />
+                <span asp-validation-for="ShowTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subject" class="control-label"></label>
+                <input asp-for="Subject" style="color:white"  class="form-control bg-black" required />
+                <span asp-validation-for="Subject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hero" class="control-label" ></label>
+                <input asp-for="Hero" style="color:white" class="form-control bg-black" required />
+                <span asp-validation-for="Hero" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MovieDuration" class="control-label"></label>
+                <input asp-for="MovieDuration" style="color:white" class="form-control bg-black" required />
+                <span asp-validation-for="MovieDuration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RoomID" class="control-label"></label>
+                <select asp-for="RoomID" class="form-control bg-black" style="color:white"  asp-items="ViewBag.RoomID"></select>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Poster</label>
+                <input type="file" id="imageInput" name="image" class="form-control  bg-black" style="color:white; width:96%;margin-left:2%" required>
+            </div>
+            <br />
+            <div class="form-group">
+
+                <input type="submit" value="Create" class="btn btn-outline-success" />
+            </div>
+        </form>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="card" style="background-color:#222; border:none">
+            <div class="card-body">
+                <center>
+                    <h4 style="color:white">New Poster</h4>
+                    <img src="/images/not_img.PNG" id="selectedImage" alt="Selected Image" height="400" width="270" style="border-radius:10px">
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <hr />
+    <a class="btn btn-outline-light" asp-action="Index">Back to List</a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script src="~/js/oldnewimg.js"></script>
+

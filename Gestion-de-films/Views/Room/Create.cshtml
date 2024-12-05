@@ -1,0 +1,48 @@
+﻿@model Gestion_de_films.Models.Room
+
+@{
+    ViewData["Title"] = "Create";
+}
+<link rel="stylesheet" href="/css/Moviecreate.css" />
+<style>
+    .container {
+        text-align: center;
+    }
+
+    .row {
+        display: inline-block;
+        text-align: left;
+        width: 50%
+    }
+</style>
+<br />
+<br />
+<h1>Create</h1>
+<h4>Room</h4>
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-md-12" style="background-color:#111;padding:1%; border-radius:10px">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" placeholder="Room Name" style="color:white" class="form-control bg-black" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NbPlaces" class="control-label"></label>
+                    <input asp-for="NbPlaces" placeholder="Number places" style="color:white" class="form-control bg-black" />
+                    <span asp-validation-for="NbPlaces" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" style="margin-top:2.5%" value="Save" class="btn btn-outline-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div>
+    <a class="btn btn-outline-light" style="margin-top:2%" asp-action="Index">Back to List</a>
+</div>
+

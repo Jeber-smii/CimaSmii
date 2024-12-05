@@ -1,0 +1,20 @@
+﻿
+
+.movie-poster {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+.movie-info {
+    width: calc(100% - 320px);
+    float: left;
+}
+
+.section-title {
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+h6 {
+    display: inline-block; /* Ensures elements are on the same line */
+    margin-right: 10px; /* Adjust the spacing between title and content */
+}

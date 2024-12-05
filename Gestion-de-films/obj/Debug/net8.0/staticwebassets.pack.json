@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CimaSmii.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CimaSmii.chlp22ukcw.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\css\\Access_denied.css",
+      "PackagePath": "staticwebassets\\css\\Access_denied.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\css\\DetailsMovieUser.css",
+      "PackagePath": "staticwebassets\\css\\DetailsMovieUser.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\css\\Homedetails.css",
+      "PackagePath": "staticwebassets\\css\\Homedetails.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\css\\Homeindex.css",
+      "PackagePath": "staticwebassets\\css\\Homeindex.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\css\\Moviecreate.css",
+      "PackagePath": "staticwebassets\\css\\Moviecreate.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\css\\Moviedetails.css",
+      "PackagePath": "staticwebassets\\css\\Moviedetails.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\css\\Searchbox.css",
+      "PackagePath": "staticwebassets\\css\\Searchbox.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\css\\loginsignup.css",
+      "PackagePath": "staticwebassets\\css\\loginsignup.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\css\\test.css",
+      "PackagePath": "staticwebassets\\css\\test.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\images\\06856cd5-bb26-45d4-9b15-d35be739f189_74daacdc-c1e6-4123-9118-a6faca53c341_Parker.PNG",
+      "PackagePath": "staticwebassets\\images\\06856cd5-bb26-45d4-9b15-d35be739f189_74daacdc-c1e6-4123-9118-a6faca53c341_Parker.PNG"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\images\\19ebd562-14d8-472b-89e5-ad850d0048a3_Captiiire.PNG",
+      "PackagePath": "staticwebassets\\images\\19ebd562-14d8-472b-89e5-ad850d0048a3_Captiiire.PNG"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\images\\25b1a301-6834-40ed-8e4a-6e4ee43dac72_Capdedededeture.PNG",
+      "PackagePath": "staticwebassets\\images\\25b1a301-6834-40ed-8e4a-6e4ee43dac72_Capdedededeture.PNG"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\images\\3a887347-d398-4707-8068-d6d25c13a25c_Caaaaapture.PNG",
+      "PackagePath": "staticwebassets\\images\\3a887347-d398-4707-8068-d6d25c13a25c_Caaaaapture.PNG"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\images\\51b88bb9-a57b-4aac-afe4-6848430d0d86_be0e52ab-59a2-4311-8e76-e0912ea8db48_beekeeper.jpeg",
+      "PackagePath": "staticwebassets\\images\\51b88bb9-a57b-4aac-afe4-6848430d0d86_be0e52ab-59a2-4311-8e76-e0912ea8db48_beekeeper.jpeg"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\images\\806cd2c0-5527-4491-a365-712bd7533870_rr.PNG",
+      "PackagePath": "staticwebassets\\images\\806cd2c0-5527-4491-a365-712bd7533870_rr.PNG"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\images\\90270146-7e97-40f7-90ee-34fcdc54da24_be0e52ab-59a2-4311-8e76-e0912ea8db48_beekeeper.jpeg",
+      "PackagePath": "staticwebassets\\images\\90270146-7e97-40f7-90ee-34fcdc54da24_be0e52ab-59a2-4311-8e76-e0912ea8db48_beekeeper.jpeg"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\images\\dcf9a1d4-b60b-4eda-811b-547c3424d641_Captuttttttre.PNG",
+      "PackagePath": "staticwebassets\\images\\dcf9a1d4-b60b-4eda-811b-547c3424d641_Captuttttttre.PNG"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\images\\de4f960b-ca7d-4911-b53e-c56934c3d6d7_report.PNG",
+      "PackagePath": "staticwebassets\\images\\de4f960b-ca7d-4911-b53e-c56934c3d6d7_report.PNG"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\images\\not_img.PNG",
+      "PackagePath": "staticwebassets\\images\\not_img.PNG"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\js\\DeleteRole.js",
+      "PackagePath": "staticwebassets\\js\\DeleteRole.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\js\\oldnewimg.js",
+      "PackagePath": "staticwebassets\\js\\oldnewimg.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\DSI2_23_24\\ASP.Net\\CimaSmii\\Gestion-de-films\\Gestion-de-films\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CimaSmii.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CimaSmii.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CimaSmii.props",
+      "PackagePath": "build\\CimaSmii.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CimaSmii.props",
+      "PackagePath": "buildMultiTargeting\\CimaSmii.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CimaSmii.props",
+      "PackagePath": "buildTransitive\\CimaSmii.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

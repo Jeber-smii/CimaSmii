@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Gestion_de_films.Models.Room>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<link href="/css/Homeindex.css" rel="stylesheet" />
+<style>
+    .table{
+        background-color: black;
+        color: white;
+        width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px
+    }
+ 
+    th {
+        /width: calc(100% / 4); /* Divide the table width equally among the 10 columns */
+    }
+
+</style>
+
+<br /><br />
+<h1>All Rooms</h1>
+    
+<p>
+    <a class="btn btn-success" asp-action="Create">Create New</a>
+</p>
+<hr />
+<table class="table ">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NbPlaces)
+            </th>
+            <th>Room Number </th>
+            <th></th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NbPlaces)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RoomID)
+                </td>
+                <td colspan="2">
+                    <a class="btn btn-primary mr-2" asp-action="Edit" asp-route-id="@item.RoomID" style="color: white;">Edit</a>
+                    <a class="btn btn-info mr-2" asp-action="Details" asp-route-id="@item.RoomID" style="color: white;">Details</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.RoomID" style="color: white;">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

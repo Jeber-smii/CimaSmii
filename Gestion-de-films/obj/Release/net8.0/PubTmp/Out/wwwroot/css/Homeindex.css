@@ -1,0 +1,53 @@
+﻿
+
+.movie-card {
+    width: 250px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    color: white;
+}
+.movie-card:hover {
+    border: 1px solid;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Complete box shadow effect */
+}
+
+.movie-card img {
+    display: block;
+    margin: 0 auto;
+   
+}
+
+.movie-card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.movie-card p {
+    margin-bottom: 10px;
+}
+
+.movie-card a {
+    color: white;
+    text-decoration: none;
+}
+
+.movie-card a:hover {
+    text-decoration: underline;
+}
+.row {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping onto multiple lines */
+}
+
+.movie-card {
+    width: 220px; /* Adjust as needed */
+    margin-right: 20px; /* Optional: Add some space between cards */
+}
+/*--------------------- search box -------------------------------*/
+
+
+

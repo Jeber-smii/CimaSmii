@@ -1,0 +1,50 @@
+@keyframes slideInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+h1 {
+    color: red;
+    animation: slideInTop 1s ease forwards;
+}
+
+h3 {
+    
+    animation: slideInRight 1s ease forwards;
+}
+
+h6 {
+    color: red;
+    text-decoration: underline;
+    animation: zoomIn 1s ease forwards;
+}
+

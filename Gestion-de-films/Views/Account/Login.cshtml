@@ -1,0 +1,57 @@
+﻿@model Gestion_de_films.ViewModel.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+}
+
+@{
+	var returnUrl = Context.Request.Query["ReturnUrl"];
+}
+
+<link href="/css/loginsignup.css" rel="stylesheet" />
+<style>
+    .inline-field input,
+    .inline-field label {
+        display: inline;
+        margin-bottom: 0;
+        vertical-align: middle;
+        
+    }
+    .pos{
+        position:relative;
+        top:4px;
+    }
+</style>
+
+<div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+ </div>   
+
+    <form asp-route-returnurl="@returnUrl" asp-action="Login" method="post">
+        
+        <h3>Login Here</h3>
+
+        <div class="form-group">
+            <label asp-for="Email" class="control-label"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        
+        <div class="form-group">
+            <label asp-for="Password" class="control-label"></label>
+            <input asp-for="Password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+            
+        </div>
+        <div class="form-group" style="margin-bottom:-15%;">
+            <div class="checkbox inline-field">
+                <input type="checkbox" asp-for="RememberMe" style="width:5%" id="checkbox">
+                <label class="pos" for="checkbox">Remember Me</label>
+            </div>
+        </div>
+        <button type="submit">Log In</button>
+
+    </form>
+
+
+

@@ -1,0 +1,60 @@
+﻿@model Gestion_de_films.Models.Room
+
+@if (Model != null)
+{
+    ViewData["Title"] = "Edit-" + Model.Name;
+
+    <link href="/css/Homeindex.css" rel="stylesheet" />
+    <br />
+    <style>
+        .container {
+            text-align: center;
+        }
+
+        .row {
+            display: inline-block;
+            text-align: left;
+            width:50%
+        }
+    </style>
+
+    <h1>Edit: @Model.Name</h1>
+
+    <hr />
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" style="background-color: #111; color: white; border-radius:10px">
+                    <div class="card-body">
+                        <form asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" asp-for="RoomID" />
+                            <div class="form-group">
+                                <label asp-for="Name" class="control-label"></label>
+                                <input asp-for="Name" style="color:white" class="form-control bg-black" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="NbPlaces" class="control-label"></label>
+                                <input asp-for="NbPlaces" style="color:white" class="form-control bg-black" />
+                                <span asp-validation-for="NbPlaces" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" style="margin-top:2%" value="Save" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <a class="btn btn-outline-light" style="margin-top:2%" asp-action="Index">Back to List</a>
+    </div>
+}
+else
+{
+    <br />
+    <h1>No Room Selected!</h1>
+}
